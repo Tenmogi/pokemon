@@ -1,0 +1,132 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url("../img/pokemon1.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+.container{
+    width: 50%;
+    margin: 80px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(191, 220, 188, 0.912); 
+} 
+
+h1{
+    color:black;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    
+}
+
+h2{
+    text-align: left; 
+}
+
+#mon_bouton{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#button p{
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+  
+   
+}
+img {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+#resultcontainer {
+    display: none;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+#mon_bouton p{
+    font-size: 20px;
+    text-align: left;
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#button #newpara{
+   text-align: center;
+   font-size: 50%;
+   width: 50px;
+}
+
+#detailcontainer{
+    display: none;
+
+}
+
+.container2{
+    width: 50%;
+    margin: 80px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(191, 220, 188, 0.912); 
+} 
+
+.container2 h1{
+    font-size: 50px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#detailcontainer #open-link{
+     text-align: center;
+    width: fit-content;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    margin-left: 45%;
+    font-size: 20px;
+}
+
+#pokemondropdown{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.container h1{
+    font-family: cursive;
+}
+
+legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#form2{
+    width: 60%;
+    text-align: center;
+    height: 50%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    
+} 
